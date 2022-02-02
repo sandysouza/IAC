@@ -8,7 +8,6 @@ all:
 
 local:
    vars:
-      var_do_inventory: 'Inv-Var'
       lista_do_inventory:
         - "Fiat"
         - "VW"
@@ -20,3 +19,4 @@ remoto:
     hosts:
       10.0.0.11:
         datacenter: secundario
+        var_do_inventory: 'Inv-Var'
